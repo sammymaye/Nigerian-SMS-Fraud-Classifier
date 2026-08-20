@@ -1,2 +1,14 @@
-# Nigerian-SMS-Fraud-Classifier
-Nigerian SMS Fraud Classifier is an end-to-end Machine Learning and Natural Language Processing (NLP) pipeline designed to detect and classify fraudulent SMS messages, spam, and legitimate transactions within the Nigerian communications ecosystem.
+# Nigerian SMS Fraud Classifier
+
+A Machine Learning project to detect and classify fraudulent SMS messages in Nigeria using Natural Language Processing (NLP) and Logistic Regression.
+
+## 📦 Project Deliverables
+- **Notebook:** Complete exploratory analysis and model pipeline in `notebook/nigerian_sms_fraud_classifier.ipynb`.
+- **Trained Model:** Exported model pipeline in `models/nigerian_sms_fraud_model.pkl`.
+- **Evaluation Results:** Detailed metric scores located in `evaluation/results.txt`.
+- **Dataset:** Included under `dataset/nigerian_fraud_sms_dataset.csv`.
+
+## ⚙️ How to Setup and Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
