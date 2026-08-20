@@ -1,1 +1,33 @@
+Loading dataset from nigerian_fraud_sms_dataset.csv...
+Training model pipeline...
+
+========================================
+MODEL PERFORMANCE (Accuracy: 1.0000)
+========================================
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      1.00      1.00       500
+       Fraud       1.00      1.00      1.00       500
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
+Confusion Matrix:
+[[500   0]
+ [  0 500]]
+
+Trained model pipeline saved successfully as "nigerian_fraud_sms_model.pkl".
+
+========================================
+SAMPLE INFERENCE TEST
+========================================
+SMS: 'Congratulations! You have been selected for FG Empowerment Grant of N50,000. Click http://fg-grant-claim.site to receive funds.'
+Result: Fraud (Fraud Confidence: 90.96%)
+
+SMS: 'Glo: Dear Customer, you have used 80% of your daily data bundle. Dial *323# to buy a top-up.'
+Result: Legitimate (Fraud Confidence: 1.89%)
+
+SMS: 'URGENT: Your bank account has been blocked due to missing BVN. Call 08030000000 immediately to unblock.'
+Result: Fraud (Fraud Confidence: 97.98%)
 
